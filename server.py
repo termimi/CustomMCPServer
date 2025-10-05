@@ -1,7 +1,6 @@
 import logging
 import json
 import sys
-
 from mcp.server.fastmcp import Context, FastMCP
 from mcp.server.session import ServerSession
 
@@ -11,7 +10,7 @@ logging.basicConfig(
     stream=sys.stderr
 )
 logger = logging.getLogger("MCP-Test-Server")
-mcp = FastMCP("testServer")
+mcp = FastMCP("testServer",host="0.0.0.0")
 
 data = [
     {
@@ -33,12 +32,12 @@ data = [
 json_string = json.dumps(data)
 Users = json.loads(json_string)
 
-@mcp.tool()
-async def Get_User_Info():
-    pass
-
-
-
-
-
-
+@mcp.tool(
+    name="Get_User_Info_With_Fisrt_Name",
+    description="Get the info of a user with the first name provided"
+)
+def Get_User_Info_With_Fisrt_Name(first_name : str = None):
+    for user in Users:
+        if user['First_Name'] == first_name:
+            return user
+    return f"No users found for with the first name {first_name}"
