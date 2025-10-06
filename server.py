@@ -10,7 +10,7 @@ logging.basicConfig(
     stream=sys.stderr
 )
 logger = logging.getLogger("MCP-Test-Server")
-mcp = FastMCP("testServer",host="0.0.0.0")
+mcp = FastMCP("testServer",host="0.0.0.0",auth=None)
 
 data = [
     {
@@ -41,3 +41,5 @@ def Get_User_Info_With_Fisrt_Name(first_name : str = None):
         if user['First_Name'] == first_name:
             return user
     return f"No users found for with the first name {first_name}"
+
+mcp.run(transport="streamable-http")
