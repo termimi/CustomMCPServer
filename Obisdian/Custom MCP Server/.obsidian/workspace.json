@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "b07d2ed6303c817b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7717caa8442b93aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b51545166969c06c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MCP Server Test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MCP Server Test"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ccce02f5f34f8e84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a7f6bfa41e461f7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8156749e5bd096e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b27643244580872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49e4f3f00924e3f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fc8ad119d3339ae2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f60ff3c09898ca61",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2dfea57938d6ccad",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee11a9d2fd1124cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6f24ad53f2aa949",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MCP Server Test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for MCP Server Test"
+            }
+          },
+          {
+            "id": "15c100d8b7bb9376",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MCP Server Test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from MCP Server Test"
+            }
+          },
+          {
+            "id": "7765fbe7b8028cd4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "799142aa4b4e6abc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MCP Server Test.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of MCP Server Test"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b51545166969c06c",
+  "lastOpenFiles": [
+    "MCP Server Test.md"
+  ]
+}

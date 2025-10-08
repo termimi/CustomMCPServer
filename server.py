@@ -19,12 +19,12 @@ data = [
         "Age": 21
     },
     {
-        "Fist_Name": "Loic",
+        "First_Name": "Loic",
         "Last_Name": "Michoud",
         "Age": 20
     },
     {
-        "Fisrt_Name": "Thijs",
+        "First_Name": "Thijs",
         "Last_Name": "Ananta",
         "Age": 20
     }
